@@ -1,0 +1,210 @@
+/* .zong{ 
+  /* border: solid 1px red; */
+    /* height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+} */
+/* .user_bg {
+  height: 50vh;
+  filter: blur(10rpx);
+}*/
+.content{
+  display: flex;
+  position: fixed;
+  top: 70%;
+  right: 26%;
+  width: 100%;
+  height: auto; 
+  /* border: solid 1px green; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40rpx;
+  background: linear-gradient(#ccfbff, #ef96c5); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+
+.content2{
+  position: fixed;
+  top:87%;
+  right: 26%;
+  width: 100%;
+  height: auto; 
+  /* border: solid 1px green; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40rpx;
+  background: linear-gradient(#ccfbff, #ef96c5); 
+  border-radius: 50rpx;
+}
+.content3{
+  top:37%;
+
+  /* border: solid 1px red; */
+  width: auto;
+  height: 200px;
+  position:fixed; 
+  left: 6%;
+  right: 6%;
+  bottom: 80px;
+  font-size: 20px;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: bold;
+  
+}
+
+.content4{
+  position: fixed;
+  top:78.5%;
+  right: 26%;
+  width: 100%;
+  height: auto; 
+  /* border: solid 1px green; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40rpx;
+  background: linear-gradient(#ccfbff, #ef96c5); 
+  border-radius: 50rpx;
+}
+/*
+page{
+  height:100%;
+  width: 100%;
+} */
+/* .userinfo {
+  position: fixed;
+  top:10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 30rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+page {
+  background-color: #edece8;
+} */
+.user_info_wrap {
+  height: 35vh;
+  overflow: hidden;
+  background-color: var(--themeColor);
+  position: relative;
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  width: 100%;
+  height: 40vh;
+  filter: blur(10rpx);
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 40rpx;
+}
+.user_info_wrap .user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+  /* border: 1rpx solid greenyellow; */
+  color: greenyellow;
+  font-size: 38rpx;
+  padding: 30rpx;
+  border-radius: 10rpx;
+}
+.user_content {
+  position: relative;
+}
+.user_content .user_main {
+  padding-bottom: 100rpx;
+  color: #666;
+  position: absolute;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -40rpx;
+}
+.user_content .user_main .history_wrap {
+  background-color: #fff;
+  display: flex;
+}
+.user_content .user_main .history_wrap navigator {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.user_content .user_main .history_wrap navigator .his_num {
+  color: var(--themeColor);
+}
+.user_content .user_main .orders_wrap {
+  background-color: #fff;
+  margin-top: 30rpx;
+}
+.user_content .user_main .orders_wrap .orders_title {
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .orders_wrap .order_content {
+  display: flex;
+}
+.user_content .user_main .orders_wrap .order_content navigator {
+  padding: 15rpx 0;
+  flex: 1;
+  text-align: center;
+}
+.user_content .user_main .orders_wrap .order_content navigator .iconfont {
+  color: var(--themeColor);
+  font-size: 40rpx;
+}
+.user_content .user_main .address_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx ;
+}
+.user_content .user_main .app_info_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+}
+.user_content .user_main .app_info_wrap .app_info_item {
+  padding: 20rpx ;
+  border-bottom: 1rpx solid #ccc;
+}
+.user_content .user_main .app_info_wrap .app_info_contact {
+  display: flex;
+  justify-content: space-between;
+}
+.user_content .user_main .recommend_wrap {
+  margin-top: 30rpx;
+  background-color: #fff;
+  padding: 20rpx ;
+}

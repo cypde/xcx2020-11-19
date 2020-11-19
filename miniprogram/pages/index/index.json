@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+    "backgroundColor": "#268dcd",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169E1",
+    "navigationBarTitleText": "发现",
+    "navigationBarTextStyle": "black"
+}

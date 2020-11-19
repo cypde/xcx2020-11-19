@@ -1,0 +1,33 @@
+<!--about.wxml-->
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">
+      <!-- {{motto}} -->
+
+    <!-- </text>
+  </view>
+</view> --> 
+<view class="zong">
+    <contact-button class="content1">
+      关于洛理一言小程序
+    </contact-button>
+    <text class="content2">
+      　　汇聚有料文字，洛理一言·程序为您随机推荐一个句子，句子风格各异，或出自小说或散文或诗歌，或出自名家或网络作家，您总能翻到喜欢的。数据全部来自于“一言API”和“今日诗词API”！
+      　　因作者刚学小程序的开发，用户体验和界面布局不佳敬请谅解
+      有疑问？有建议？有需求？联系开发者QQ：2774428149
+      　　或者点击上方“关于洛理一言小程序”联系客服
+    </text>
+    <text class="content3">
+      小提示：搜索公众号“月月鸟影视”~
+    </text>
+    <!-- <navigator class="content4"target="miniProgram" open-type="navigate" app-id="wx5a525df209c26653" path="pages/index/index" extra-data="" version="release">小提示：点击此处或搜索公众号“月月鸟影视”,
+      即可免费观看最新上线的全部热门影视
+   </navigator> -->
+</view>

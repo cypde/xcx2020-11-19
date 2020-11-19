@@ -1,0 +1,17 @@
+<view style=" top:0;width: 750rpx;heigth：100rpx;color:black; background-color: #4169E1;">收藏数据:（上拉加载更多）
+删除成功需重新进入
+</view>
+<view class="zong" wx:for="{{list}}" wx:key="key" >
+      <!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+      <!--index为每个数据对应的下标序号:{{index+1}}-->
+      <text  selectable="true"class="xuhao">{{'\t\r\t'}}收藏时间:　{{item.due}}</text>
+      <!--item就相当于数组名+下标的结合体，适用于调用数组所有数据-->
+      <text class="nrong" selectable="true" >　{{item.description}}</text>
+      <text class="zuozhe" selectable="true" >--{{item.description2}}</text>
+      <view class="shanchu" bindtap="remove" data-index2="{{item._id}}">删除</view>
+      <!-- <view >{{item.sex}}</view> --> 
+</view>
+<!-- <view class="loading" hidden="{{!loadMore}}">正在载入更多...</view> -->
+<view class="loading" >若出现空白数据删除即可~共有{{list.length}}条</view>
+
+  

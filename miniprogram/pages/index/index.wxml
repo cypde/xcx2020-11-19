@@ -1,0 +1,153 @@
+<view class="nav">
+  <view bindtap="navSwitch" data-index="0" class="{{navState==0 ? 'nav-switch-style':''}}">哲学</view>
+  <view bindtap="navSwitch" data-index="1" class="{{navState==1 ? 'nav-switch-style':''}}">游戏</view>
+  <view bindtap="navSwitch" data-index="2" class="{{navState==2 ? 'nav-switch-style':''}}">文学</view>
+  <view bindtap="navSwitch" data-index="3" class="{{navState==3 ? 'nav-switch-style':''}}">原创</view>
+  <view bindtap="navSwitch" data-index="4" class="{{navState==4 ? 'nav-switch-style':''}}">影视</view>
+  <view bindtap="navSwitch" data-index="5" class="{{navState==5 ? 'nav-switch-style':''}}">诗词</view>
+  <view bindtap="navSwitch" data-index="6" class="{{navState==6 ? 'nav-switch-style':''}}">动画</view>
+  <view bindtap="navSwitch" data-index="7" class="{{navState==7 ? 'nav-switch-style':''}}">网易云</view>
+</view>
+<!-- 滑动页 -->
+<swiper class="zong" bindchange="bindchange" current="{{navState}}" circular="loop">
+  <block>
+    <swiper-item>
+      <view class="zong">
+      <button class="btn" bindtap="zhexue">点此换一句</button>
+      <button class="btncollect" bindtap="zhexuecollect">收藏</button>
+      <view class="content" >
+    <text selectable="true" class="content1">
+       {{zxnr}} 
+    </text>
+   <text selectable="true" class="content2">
+      --({{zxzz}})
+   </text>
+   <text class="t">
+    　--左右滑动/长按复制
+   </text>
+  </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="zong">
+        <button class="btn bt_7" bindtap="donghua">点此换一句</button>
+        <button class="btncollect" bindtap="donghuacollect">收藏</button>
+<view class="content" >
+    <text selectable="true"class="content1">
+       {{dhnr}} 
+    </text>
+   <text selectable="true"class="content2">
+      --({{dhzz}})
+   </text>
+   <text class="t">
+    　　--左右滑动/长按复制
+   </text>
+  </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="zong">
+        <button class="btn bt_3" bindtap="wenzi">点此换一句</button>
+        <button class="btncollect" bindtap="wenzicollect">收藏</button>
+  <view class="content" >
+    <text selectable="true"class="content1">
+       {{wznr}} 
+    </text>
+   <text selectable="true" class="content2">
+      --({{wzzz}})
+   </text>
+   <text class="t">
+    　--左右滑动/长按复制
+   </text>
+  </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="zong">
+        <button class="btn bt_4" bindtap="yuanchuang">点此换一句</button>
+        <button class="btncollect" bindtap="yuanchuangcollect">收藏</button>
+<view class="content" >
+    <text selectable="true"class="content1">
+       {{ycnr}} 
+    </text>
+   <text selectable="true"class="content2">
+      --({{yczz}})
+   </text>
+   <text class="t">
+    　--左右滑动/长按复制
+   </text>
+  </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="zong">
+        <button class="btn bt_5" bindtap="yinshi">点此换一句</button>
+        <button class="btncollect" bindtap="yinshicollect">收藏</button>
+  <view class="content" >
+    <text selectable="true" class="content1">
+       {{ysnr}} 
+    </text>
+   <text selectable="true"class="content2">
+      --({{yszz}})
+   </text>
+   <text class="t">
+    　--左右滑动/长按复制
+   </text>
+  </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="zong">
+        <button class="btn bt_6" bindtap="shici">点此换一句</button>
+        <button class="btncollect" bindtap="shicicollect">收藏</button>
+  <view class="content" >
+    <text selectable="true"class="content1">
+      {{jinrishici}}
+    </text>
+   <text selectable="true"class="content2">
+    [{{jinrishicititle}}]
+       --({{jinrishicidynasty}}){{jinrishiciauthor}}
+   </text>
+   <text class="t">
+    　--左右滑动/长按复制
+   </text>
+  </view>
+      </view>
+    </swiper-item>
+  
+    <swiper-item>
+      <view class="zong">
+        <button class="btn bt_8" bindtap="youxi">点此换一句</button>
+        <button class="btncollect" bindtap="youxicollect">收藏</button>
+  <view class="content" >
+    <text selectable="true"class="content1">
+       {{yxnr}} 
+    </text>
+   <text selectable="true"class="content2">
+      --({{yxzz}})
+   </text>
+   <text class="t">
+    　--左右滑动/长按复制
+   </text>
+  </view>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="zong">
+      <button class="btn bt_2" bindtap="wangyiyun">点此换一句</button>
+      <button class="btncollect" bindtap="wangyiyuncollect">收藏</button>
+  <view class="content" >
+    <text selectable="true"class="content1">
+       {{wyynr}} 
+    </text>
+   <text selectable="true"class="content2">
+      --({{wyyzz}})
+   </text>
+   <text class="t">
+    　--左右滑动/长按复制
+   </text>
+  </view>
+</view>
+    </swiper-item>
+  </block>
+</swiper>

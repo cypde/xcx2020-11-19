@@ -1,0 +1,68 @@
+
+<scroll-view scroll-y='true'style='height:100%'>
+  <view  class="btn" bindtap="go9">
+   <navigator class="fonts" >
+     豆瓣电影评分                             
+   </navigator>
+</view>
+<view  class="btn" bindtap="go1">
+   <navigator class="fonts" >
+     免费最新电影                            
+   </navigator>
+</view>
+<view  class="btn" bindtap="go2">
+   <navigator class="fonts" >
+     免费最新电影备用                             
+   </navigator>
+</view>
+<view  class="btn" bindtap="go3">
+   <navigator class="fonts" >
+    免费最新电影备用                            
+   </navigator>
+</view>
+<view  class="btn" bindtap="go4">
+   <navigator class="fonts" >
+    免费小说                            
+   </navigator>
+</view>
+<view  class="btn" bindtap="go5">
+   <navigator class="fonts" >
+    免费小说备用                               
+   </navigator>
+</view>
+<view  class="btn" bindtap="go10">
+   <navigator class="fonts" >
+     很丧的书                             
+   </navigator>
+</view>
+<view  class="btn" bindtap="go11">
+   <navigator class="fonts" >
+     手持弹幕                              
+   </navigator>
+</view>
+<view  class="btn" bindtap="go12">
+   <navigator class="fonts" >
+     全网视频免费去水印                             
+   </navigator>
+</view>
+<view  class="btn" bindtap="go6">
+   <navigator class="fonts" >
+    跳舞的线（小游戏）              
+   </navigator>
+</view>
+<view  class="btn" bindtap="go7">
+   <navigator class="fonts" >
+    滚动的天空（小游戏）                                 
+   </navigator>
+</view>
+<view  class="btn" bindtap="go8">
+   <navigator class="fonts" >
+    腾讯桌球（小游戏）                               
+   </navigator>
+</view>
+<view  class="btn" bindtap="go8">
+   <navigator class="fonts" >
+    后续还有......                               
+   </navigator>
+</view>
+</scroll-view>

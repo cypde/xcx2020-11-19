@@ -1,0 +1,20 @@
+/* miniprogram/pages/list/list.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+.btn {
+  display: flex;    /*设置显示样式**/
+  align-items: center;    /**子view垂直居中*/
+  vertical-align: center; /**垂直居中*/
+  justify-content: center; /**内容居中*/
+  flex-direction:row;
+  height: 56px;
+  border: solid 1px white;
+  margin-top: auto;
+  background: linear-gradient(to right, #ead6ee, #a0f1ea); 
+  width: 100%;
+}
+.fonts{
+  font-size: large;
+}

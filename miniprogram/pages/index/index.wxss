@@ -1,0 +1,167 @@
+.nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx;
+  background-color:white;
+  font-size: 36rpx;
+}
+.nav-switch-style{
+  color: rgb(0, 0, 224);
+}
+.style-default{
+  background-color: rgb(247, 229, 130);
+  padding: 100rpx 0;
+  text-align: center;
+}
+.zong{ 
+  /* border: solid 1px gainsboro; */
+    height: 635px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200rpx 0;
+    box-sizing: border-box;
+}
+.btn{ 
+  position: fixed;
+    width:300rpx; 
+     height:auto;  
+     right: 26%;
+     bottom:30%;
+     font-size: 42rpx;
+     font-weight: bold;
+     text-align: center;
+     line-height: 38px; 
+     background-color: transparent;   /*按钮透明*/  
+     border:none;				/*设置按钮边框*/
+     margin-top: 40rpx;
+  background: linear-gradient(#ccfbff, #ef96c5); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+.btncollect{ 
+  /* border: solid 1px green; */
+  position: fixed;
+    width:60rpx; 
+     height:40px;  
+     right: 26%;
+     bottom:15%;
+     font-size: 32rpx;
+     font-weight: bold;
+     text-align: center;
+     line-height: 20px; 
+     background-color: transparent;   /*按钮透明*/  
+     border:none;			/*	设置按钮边框 */
+}
+.btn::after{
+    border:none；
+}
+/* 从左往右渐变 */
+.bt_2{
+  margin-top: 40rpx;
+  background: linear-gradient(to right, #ead6ee, #a0f1ea); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+/* 多色渐变 */
+.bt_3{
+  margin-top: 40rpx;
+  background: linear-gradient(to right,#f9957f, #f2f5d0, #aebaf8, #c973ff );
+  width: 80%;  
+  border-radius: 50rpx;
+}
+.bt_4{
+  margin-top: 40rpx;
+  background: linear-gradient( #b6cfa5, #db7ac3); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+.bt_5{
+  margin-top: 40rpx;
+  background: linear-gradient(to right, #db9fb6, #7ac0db); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+.bt_6{
+  margin-top: 40rpx;
+  background: linear-gradient(to right, #af9bb9, #6cecc2); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+.bt_7{
+  margin-top: 40rpx;
+  background: linear-gradient( #72df96, #d4c7dd); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+.bt_8{
+  margin-top: 40rpx;
+  background: linear-gradient(to right, #e2a0ce, #7adbbb); 
+  width: 80%;  
+  border-radius: 50rpx;
+}
+/* .btn2{ 
+  position: fixed;
+    width:300rpx; 
+     height:200rpx;  
+     right: 26%;
+     bottom:0%;
+     font-size: 42rpx;
+     font-weight: bold;
+     text-align: center;
+     line-height: 38px; 
+     background-color: transparent;   /*按钮透明*/  
+     /* border:none;				设置按钮边框 */
+/* } */ 
+.content{
+  /* display: flex; */
+  position: fixed;
+  top: 10%;
+  width: 300px;
+  /* border: solid 1px green; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content1{
+  /* border: solid 1px blue; */
+  width: 320px;
+  align-items: right;
+  font-size: 20px;
+ font-family: fantasy;
+ font-weight: bold;
+ font-style: oblique;
+ letter-spacing:8rpx;/*字体间距*/
+ /* word-break: keep-all; */
+ word-wrap: break-word;
+}
+.content2{
+  /* border: solid 1px red; */
+  width: auto;
+  position: fixed;
+  left: 60%;
+  font-size: 16px;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: lighter;
+}
+.t{
+  /* border: solid 1px red; */
+  width: auto;
+  /* height: 20px; */
+  position: fixed;
+  left: 31%;
+  top: 92%;
+  font-size: 12px;
+  color:grey;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: lighter;
+}
+
+page{
+  height:100%;
+  width: 100%;
+}

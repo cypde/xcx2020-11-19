@@ -1,0 +1,34 @@
+<!--miniprogram/pages/index2/index2.wxml-->
+<!-- <view class="zong"> -->
+
+<!-- </view> -->
+<!-- <view class="zong">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+     
+      <image bindtap="gotoPage0" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <image class="user_bg" src="{{userinfo.avatarUrl}}" ></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view> -->
+  <view class="user_info_wrap">
+  <view wx:if="{{userInfo.avatarUrl}}" class="user_img_wrap">
+    <image class="user_bg" src="{{userInfo.avatarUrl}}" ></image>
+    <view class="user_info">
+      <image bindtap="gotoPage0" class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userinfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" >登录</button>
+  </view>
+</view>
+<view>
+  <text class="content3">
+    　　小程序使用微信提供的用户唯一参数“openid”在数据库唯一记录用户，即不需要登陆收藏的数据也会永久保存[登陆有彩蛋] ~（点击最上方三个点可以打开悬浮，小程序即可常驻微信界面）
+  </text>
+      <button  class="content" bindtap="gotoPage3">我的收藏</button>
+      <button  class="content4" bindtap="gotoPage1">小程序库</button>
+      <button  class="content2" bindtap="gotoPage2">关于</button>
+  </view>

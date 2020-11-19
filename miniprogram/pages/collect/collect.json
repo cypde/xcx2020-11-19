@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+ 
+    "backgroundColor": "#268dcd",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169E1",
+    "navigationBarTitleText": "按收藏时间降序排列",
+    "navigationBarTextStyle": "black"
+  
+}

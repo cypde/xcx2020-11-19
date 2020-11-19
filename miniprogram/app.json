@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/index2/index2",
+    "pages/list/list",
+    "pages/collect/collect",
+    "pages/caidan/caidan"
+  ],
+  "window": {
+    "backgroundColor": "#268dcd",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4169E1",
+    "navigationBarTitleText": "我的洛理一言",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#268dcb",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "images/ic_joke_gray.png",
+        "selectedIconPath": "images/ic_joke_blue.png"
+      },
+      {
+        "pagePath": "pages/index2/index2",
+        "text": "我的",
+        "iconPath": "images/ic_about_gray.png",
+        "selectedIconPath": "images/ic_about_blue.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,74 @@
+/* miniprogram/pages/collect/collect.wxss */
+.Page{
+  height: 100%;
+  width: 100%;
+}
+
+.loading {
+display: flex;
+justify-content: center; 
+align-items:center;  
+  height: 40px;
+  bottom: 7rpx;
+  color: grey;
+  font-size: 14px;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: lighter;
+}
+.zong{ 
+  border: solid 1px gainsboro;
+    width: 100%;
+    height: 33px;
+    display: flex;
+    flex-direction: column;
+    padding: 100rpx 0;
+    display: -webkit-flex;
+  position: relative;
+    justify-content: center;
+    align-content: center;
+    
+}
+.xuhao{
+  /* align-items: flex-start; */
+   /* align-self: start; */
+   /* top: 1%; */
+  position: absolute;
+   top: 4px;
+   color: grey;
+   font-size: 14px;
+   font-family: cursive;
+   font-style: oblique;
+   font-weight: lighter;
+ }
+.nrong{
+  position: absolute;
+   top: 30px;
+  left: 8px;
+  right: 10px;
+   /* border: solid 1px red; */
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-style: oblique; */
+  font-weight: bold;
+}
+.zuozhe{
+   /* border: solid 1px green; */
+   position: absolute;
+   bottom: 28px;
+   right: 3px;
+  margin-right: 20px;
+  font-size: 17px;
+  font-family: cursive;
+  font-style: oblique;
+  font-weight: lighter;
+}
+.shanchu{
+  position: absolute;
+  bottom: 6px;
+  left:  12px;
+  border: solid 1px gainsboro;
+  /* background-color:lightcoral; */
+  width: auto;
+  /* border: solid 1px green; */
+}
